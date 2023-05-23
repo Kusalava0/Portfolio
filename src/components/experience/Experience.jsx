@@ -4,8 +4,13 @@ import { BsPatchCheckFill } from 'react-icons/bs'
 import { AiOutlineHtml5 } from 'react-icons/ai'
 import { FaCss3Alt } from 'react-icons/fa'
 import { DiJavascript1 } from 'react-icons/di'
-import { SiBootstrap, SiTailwindcss } from 'react-icons/si'
+import { SiBootstrap, SiTailwindcss, SiFastapi } from 'react-icons/si'
+import { FaNodeJs, FaPython } from 'react-icons/fa'
+import { SiMongodb, SiDjango } from 'react-icons/si'
 import { RiReactjsFill } from 'react-icons/ri'
+import { TbBrandMysql } from 'react-icons/tb'
+// import { RiReactjsFill } from 'react-icons/ri'
+
 
 
 
@@ -70,42 +75,42 @@ const Experience = () => {
                     <h3>Backend Development</h3>
                     <div className='experience__content'>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <FaNodeJs className='experience__details-icon' />
                             <div>
                                 <h4>Node JS</h4>
                                 <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <SiMongodb className='experience__details-icon' />
                             <div>
                                 <h4>MongoDB</h4>
                                 <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <TbBrandMysql className='experience__details-icon' />
                             <div>
                                 <h4>MySQL</h4>
                                 <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <FaPython className='experience__details-icon' />
                             <div>
                                 <h4>Python</h4>
                                 <small className='text-light'>Experienced</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <SiDjango className='experience__details-icon' />
                             <div>
                                 <h4>Django</h4>
                                 <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <SiFastapi className='experience__details-icon' />
                             <div>
                                 <h4>Fast API</h4>
                                 <small className='text-light'>Basic</small>
